@@ -1,10 +1,11 @@
 # Minimal bun + react
 
-Server-side rendered React server by bun.
+Server-side rendered React served by bun.
 
 ## Usage
 
 `bun install`
+
 `bun start`
 
 The app will be available on `http://localhost:3000`
