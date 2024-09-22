@@ -2,6 +2,12 @@
 
 Server-side rendered React served by bun.
 
+## Quickstart
+
+Start by initializing your project:
+
+`bun create jarle/minimal-bun-react`
+
 ## Usage
 
 `bun install`
