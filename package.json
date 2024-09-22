@@ -1,0 +1,22 @@
+{
+  "name": "minimal-bun-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/server.tsx",
+    "prestart": "bunx tailwindcss -i ./src/tailwind.css -o ./public/style.css",
+    "start": "bun run src/server.tsx"
+  },
+  "dependencies": {
+    "react": "^19.0.0-rc-e4953922-20240919",
+    "react-dom": "^19.0.0-rc-e4953922-20240919"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "tailwindcss": "^3.4.12",
+    "typescript": "^5.5.3"
+  }
+}
